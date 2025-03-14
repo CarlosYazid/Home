@@ -1,23 +1,23 @@
-const logotext = "JOHN";
+const logotext = "CARLOS";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Carlos Padilla",
+    description: "I’m Carlos Padilla data scientist",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Carlos Padilla",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I code in Scala",
+        third: "I develop Ml models",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "From Data Science to Machine Learning Engineering, I transform raw data into powerful insights and scalable solutions. Let’s build the future with data-driven intelligence! 📊🤖",
+    your_img_url: "https://i.postimg.cc/PJHXNbZp/1-w-Jt3v7-Gs46utic-TUj4y9zg.gif",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my",
+    aboutme: "Student at the National University of Colombia, Downhill enthusiast, and Dua Lipa fan. Passionate about technology, data science, and innovation, always eager to learn and take on new challenges. 🚀📊💡",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -37,38 +37,38 @@ const worktimeline = [{
 ];
 
 const skills = [{
-        name: "Python",
+        name: "TensorFlow",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "PyTorch",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "Spark",
         value: 80,
     },
     {
-        name: "React",
+        name: "AWS",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Azure",
         value: 85,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "📊 Data Science",
+        description: "Transform raw data into actionable insights with advanced analytics, machine learning, and AI. From data cleaning to predictive modeling, I help businesses make smarter, data-driven decisions.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "🤖 Machine Learning Engineering",
+        description: "Deploy and scale machine learning models efficiently with MLOps, automation, and cloud integration. Ensure reproducibility, monitoring, and performance to drive real-world impact.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "🛠️ Data Engineering",
+        description: "Design, optimize, and manage robust data pipelines for seamless integration, storage, and processing. Ensure your data is accessible, reliable, and ready for analytics & AI.",
     },
 ];
 
@@ -136,20 +136,20 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "contact@carlospadilla.co",
+    YOUR_FONE: "(350)777-9746",
+    description: "Looking for a passionate Data Scientist & ML Engineer? I’m always open to exciting opportunities! Drop your email, and let’s explore how we can work together. 📩✨",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_vqlf304",
+    YOUR_TEMPLATE_ID: "template_a8z5843",
+    YOUR_PUBLIC_KEY: "fEF6YMSgRYX-0bjBF",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/CarlosYazid",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/carlosyazid/",
     twitter: "https://twitter.com",
 };
 export {

@@ -1,38 +1,14 @@
-### Description
+#Carlos Yazid Padilla Royero
 
-A simple portfolio template for developer/designers built with React. 
+Transformo datos en conocimiento y conocimiento en decisiones estratégicas. 🧠✨ Con experiencia en Python, Scala, Java, y un sólido dominio en análisis de datos, modelado predictivo y machine learning, mi misión es extraer valor de la información para impulsar el crecimiento empresarial.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+🔹 Data Wrangling & ETL: Limpieza, transformación y estructuración eficiente de datos.
+🔹 Machine Learning & AI: Modelado, evaluación y optimización de algoritmos.
+🔹 Big Data & Cloud: Procesamiento de datos a gran escala en entornos distribuidos.
+🔹 Storytelling con datos: Visualización e interpretación para decisiones basadas en evidencia.
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+Siempre en busca de nuevos desafíos y oportunidades para innovar con datos. 🚀 ¿Hablamos?
 
-### Features
+📩 Emails: contact@carlospadilla.co | contact@carlosroyero.co
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
-
-### Setup
-
-Get the code
-
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
-
-<pre>yarn install</pre>
-
-
-Start the server
-
-<pre>yarn start</pre>
-
-### More
-
-Modify pages content in  `src/content_option.js`.
-
-### Thanks
-
-If you like this portfolio template don't forget give it a ⭐ 
+#DataScience #MachineLearning #BigData
