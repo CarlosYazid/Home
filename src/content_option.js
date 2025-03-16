@@ -9,14 +9,14 @@ const introdata = {
     animated: {
         first: "I love coding",
         second: "I code in Scala",
-        third: "I develop Ml models",
+        third: "I develop ML models",
     },
     description: "From Data Science to Machine Learning Engineering, I transform raw data into powerful insights and scalable solutions. Let’s build the future with data-driven intelligence! 📊🤖",
     your_img_url: "https://i.postimg.cc/PJHXNbZp/1-w-Jt3v7-Gs46utic-TUj4y9zg.gif",
 };
 
 const dataabout = {
-    title: "about my",
+    title: "i am",
     aboutme: "Student at the National University of Colombia, Downhill enthusiast, and Dua Lipa fan. Passionate about technology, data science, and innovation, always eager to learn and take on new challenges. 🚀📊💡",
 };
 const worktimeline = [{
