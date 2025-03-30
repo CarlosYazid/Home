@@ -73,22 +73,22 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://i.postimg.cc/fLLgTb1x/image.png",
+        img: "https://i.postimg.cc/G2ygsfh2/Map-2-773x1024-modified.png",
         description: "Time series models for forecasting solar energy consumption and generation in the United Kingdom.",
         link: "https://github.com/CarlosYazid/Energy-UK",
     },
     {
-        img: "https://i.postimg.cc/hjNFkxhJ/image-1.png",
+        img: "https://i.postimg.cc/mrq6k44J/0-p-Pq-BXFk42-TTJGMv-L-modified.jpg",
         description: "Project of a financial bot Acessor",
         link: "https://github.com/CarlosYazid/Financial-Advisor-Bot",
     },
     {
-        img: "https://i.postimg.cc/bY2fQ6F1/image-2.png",
+        img: "https://i.postimg.cc/6pWP1zzj/dahlia-1508785047-modified.png",
         description: "Image classifier to recognize different species of flowers",
         link: "https://github.com/CarlosYazid/Image-Classifier-Project",
     },
     {
-        img: "https://i.postimg.cc/m2YxnP4D/image-4.png",
+        img: "https://i.postimg.cc/br06m2nf/morelondon-modified.jpg",
         description: "Models for london average temperature prediction",
         link: "https://github.com/CarlosYazid/London-Climate-Prediction",
     },
