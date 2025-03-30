@@ -73,24 +73,24 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/fLLgTb1x/image.png",
+        description: "Time series models for forecasting solar energy consumption and generation in the United Kingdom.",
+        link: "https://github.com/CarlosYazid/Energy-UK",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/hjNFkxhJ/image-1.png",
+        description: "Project of a financial bot Acessor",
+        link: "https://github.com/CarlosYazid/Financial-Advisor-Bot",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/bY2fQ6F1/image-2.png",
+        description: "Image classifier to recognize different species of flowers",
+        link: "https://github.com/CarlosYazid/Image-Classifier-Project",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.postimg.cc/m2YxnP4D/image-4.png",
+        description: "Models for london average temperature prediction",
+        link: "https://github.com/CarlosYazid/London-Climate-Prediction",
     },
     {
         img: "https://picsum.photos/400/300/?grayscale",
