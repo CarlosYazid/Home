@@ -17,7 +17,7 @@ const AnimatedRoutes = withRouter(({ location }) => {
     <TransitionGroup component={null}>
       <CSSTransition
         key={location.pathname}
-        timeout={{ enter: 500, exit: 500 }}
+        timeout={{ enter: 50, exit: 50 }}
         classNames="page"
         nodeRef={nodeRef}
         unmountOnExit

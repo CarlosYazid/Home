@@ -6,14 +6,17 @@
 
 .page-enter {
     transform: translateY(100%);
+    opacity: 0;
 }
 
 .page-enter-active {
+    opacity: 1;
     transform: translateY(0%);
-    transition: all 400ms ease-out;
+    transition: transform 400ms ease-out;
 }
 
 .page-exit {
+    opacity: 1;
     transform: translateY(0%);
     position: absolute;
     left: 0;
@@ -27,7 +30,8 @@
     right: 0;
     top: 0;
     transform: translateY(-130%);
-    transition: all 400ms ease-out;
+    opacity: 0;
+    transition: transform 400ms ease-out;
 }
 
 @media (min-width: 1400px) {
