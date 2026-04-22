@@ -1,17 +1,17 @@
 const logotext = "CARLOS";
 const meta = {
     title: "Carlos Padilla",
-    description: "I’m Carlos Padilla data scientist",
+    description: "I'm Carlos Padilla data scientist",
 };
 
 const introdata = {
-    title: "I’m Carlos Padilla",
+    title: "I'm Carlos Padilla",
     animated: {
         first: "I love coding",
         second: "I code in Scala",
         third: "I develop ML models",
     },
-    description: "From Data Science to Machine Learning Engineering, I transform raw data into powerful insights and scalable solutions. Let’s build the future with data-driven intelligence! 📊🤖",
+    description: "From Data Science to Machine Learning Engineering, I transform raw data into powerful insights and scalable solutions. Let's build the future with data-driven intelligence! 📊🤖",
     your_img_url: "https://i.postimg.cc/PJHXNbZp/1-w-Jt3v7-Gs46utic-TUj4y9zg.gif",
 };
 
@@ -19,7 +19,9 @@ const dataabout = {
     title: "i am",
     aboutme: "Student at the National University of Colombia, Downhill enthusiast, and Dua Lipa fan. Passionate about technology, data science, and innovation, always eager to learn and take on new challenges. 🚀📊💡",
 };
-const worktimeline = [{
+
+const worktimeline = [
+    {
         jobtitle: "Designer of week",
         where: "YAdfi",
         date: "2020",
@@ -36,7 +38,8 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "TensorFlow",
         value: 90,
     },
@@ -58,7 +61,8 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "📊 Data Science",
         description: "Transform raw data into actionable insights with advanced analytics, machine learning, and AI. From data cleaning to predictive modeling, I help businesses make smarter, data-driven decisions.",
     },
@@ -72,7 +76,8 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+    {
         img: "https://i.postimg.cc/G2ygsfh2/Map-2-773x1024-modified.png",
         description: "Time series models for forecasting solar energy consumption and generation in the United Kingdom.",
         link: "https://github.com/CarlosYazid/Energy-UK",
@@ -102,7 +107,6 @@ const dataportfolio = [{
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-
     {
         img: "https://picsum.photos/400/600/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -138,12 +142,11 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "contact@carlospadilla.co",
     YOUR_FONE: "(350)777-9746",
-    description: "Looking for a passionate Data Scientist & ML Engineer? I’m always open to exciting opportunities! Drop your email, and let’s explore how we can work together. 📩✨",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: import.meta.env.REACT_APP_SERVICE_ID,
-    YOUR_TEMPLATE_ID: import.meta.env.REACT_APP_TEMPLATE_ID,
-    YOUR_PUBLIC_KEY: import.meta.env.REACT_APP_PUBLIC_KEY,
+    description: "Looking for a passionate Data Scientist & ML Engineer? I'm always open to exciting opportunities! Drop your email, and let's explore how we can work together. 📩✨",
+    // Uses VITE_ prefix for Vite compatibility (not REACT_APP_)
+    YOUR_SERVICE_ID: import.meta.env.VITE_SERVICE_ID,
+    YOUR_TEMPLATE_ID: import.meta.env.VITE_TEMPLATE_ID,
+    YOUR_PUBLIC_KEY: import.meta.env.VITE_PUBLIC_KEY,
 };
 
 const socialprofils = {
@@ -152,6 +155,7 @@ const socialprofils = {
     linkedin: "https://www.linkedin.com/in/carlosyazid/",
     twitter: "https://twitter.com",
 };
+
 export {
     meta,
     dataabout,

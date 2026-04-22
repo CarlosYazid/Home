@@ -14,10 +14,10 @@ const AnimatedRoutes = withRouter(({ location }) => {
   const nodeRef = useRef(null);
 
   return (
-    <TransitionGroup>
+    <TransitionGroup component={null}>
       <CSSTransition
         key={location.pathname}
-        timeout={{ enter: 400, exit: 400 }}
+        timeout={{ enter: 500, exit: 500 }}
         classNames="page"
         nodeRef={nodeRef}
         unmountOnExit

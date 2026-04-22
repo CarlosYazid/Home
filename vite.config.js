@@ -1,8 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
-  base:'/',
+  base: '/',
   plugins: [react()],
+  // Ensure environment variables with VITE_ prefix are exposed
+  // (this is the default behavior, documented here for clarity)
+  envPrefix: 'VITE_',
 })

@@ -23,7 +23,7 @@ export const TermsConditions = () => {
         <Row className="sec_sp">
           <Col lg="10">
             <p className="legal-effective">
-              <strong>Effective date:</strong> 2025-01-20
+              <strong>Effective date:</strong> 2025-01-01
             </p>
 
             <p>
