@@ -1,10 +1,10 @@
-import React, { useState, useRef } from "react";
+import React from "react";
+import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import { meta, contactConfig } from "../../constants.jsx";
 
 export const ContactUs = () => {
   const form = useRef();

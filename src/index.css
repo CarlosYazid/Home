@@ -1,21 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
-    --bg-color: #0c0c0c;
-    --primary-color: #0d0d0d;
-    --secondary-color: #fff;
-    --text-color: #fff;
-    --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+  
+  --bg-color: #0c0c0c;
+  --primary-color: #0d0d0d;
+  --secondary-color: #fff;
+  --text-color: #fff;
+  --text-color-2: #fff;
+  --text-color-3: rgb(204, 0, 0);
+  --overlay-color: rgb(12 12 12 / 63%);
+
+  --bs-body-bg: var(--bg-color);
+  --bs-body-color: var(--text-color);
+  --bs-primary: var(--secondary-color);
+  --bs-secondary: var(--primary-color);
+
+  --text-font-family: 'Raleway', sans-serif; 
+  --bs-link-color: var(--text-color);
+  --bs-link-hover-color: var(--text-color-2);
+  --bs-border-color: var(--primary-color);
+  --bs-btn-bg: var(--primary-color);
+  --bs-btn-color: var(--text-color);
+
 }
 
 [data-theme="light"] {
-    --bg-color: #ffffff;
-    --primary-color: #ffffff;
-    --secondary-color: #000;
-    --text-color: #000;
-    --text-color-2: #000;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(255 255 255 / 70%);
+
+  --bg-color: #ffffff;
+  --primary-color: #ffffff;
+  --secondary-color: #000;
+  --text-color: #000;
+  --text-color-2: #000;
+  --text-color-3: rgb(204, 0, 0);
+  --overlay-color: rgb(255 255 255 / 70%);
+
+  --bs-body-bg: var(--bg-color);
+  --bs-body-color: var(--text-color);
+  --bs-primary: var(--secondary-color);
+  --bs-secondary: var(--primary-color);
 }
 
 html,
@@ -28,9 +50,9 @@ body {
     height: 100%;
     overflow-x: hidden;
     overflow-y: visible;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: 'Raleway', sans-serif;
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    font-family: var(--text-font-family) !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding-top: 60px;

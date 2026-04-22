@@ -141,9 +141,9 @@ const contactConfig = {
     description: "Looking for a passionate Data Scientist & ML Engineer? I’m always open to exciting opportunities! Drop your email, and let’s explore how we can work together. 📩✨",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: process.env.REACT_APP_SERVICE_ID,
-    YOUR_TEMPLATE_ID: process.env.REACT_APP_TEMPLATE_ID,
-    YOUR_PUBLIC_KEY: process.env.REACT_APP_PUBLIC_KEY,
+    YOUR_SERVICE_ID: import.meta.env.REACT_APP_SERVICE_ID,
+    YOUR_TEMPLATE_ID: import.meta.env.REACT_APP_TEMPLATE_ID,
+    YOUR_PUBLIC_KEY: import.meta.env.REACT_APP_PUBLIC_KEY,
 };
 
 const socialprofils = {
