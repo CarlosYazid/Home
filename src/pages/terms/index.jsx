@@ -103,6 +103,15 @@ export const TermsConditions = () => {
                   Vercel
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.cloudflare.com/website-terms/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cloudflare
+                </a>
+              </li>
             </ul>
 
             <h3 className="legal-section-title">Limitation of Liability</h3>

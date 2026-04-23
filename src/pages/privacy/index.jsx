@@ -108,6 +108,15 @@ export const PrivacyPolicy = () => {
                   Vercel
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.cloudflare.com/privacypolicy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Cloudflare
+                </a>
+              </li>
             </ul>
             <p>
               The Service Provider may disclose User Provided and Automatically Collected
