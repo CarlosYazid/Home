@@ -9,6 +9,6 @@ Transformo datos en conocimiento y conocimiento en decisiones estratégicas. �
 
 Siempre en busca de nuevos desafíos y oportunidades para innovar con datos. 🚀 ¿Hablamos?
 
-📩 Emails: contact@carlospadilla.co | contact@carlosroyero.co
+📩 Emails: contact@carlospadilla.co
 
 #DataScience #MachineLearning #BigData
